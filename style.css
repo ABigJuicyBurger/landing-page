@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #1f2937;
+  padding-bottom: 6%;
 }
 
 .Header {
@@ -16,6 +17,7 @@ body {
   color: white;
   font-size: 24px;
   margin-left: 15%;
+  margin-right: 12%;
 }
 
 .secondarytext {
@@ -27,7 +29,6 @@ body {
 
 .introtext {
   display: flex;
-  flex-direction: column;
   color: white;
   margin-left: 15%;
 }
@@ -63,8 +64,14 @@ ul {
 
 .placeholder {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  min-width: 44%;
+  margin-top: 4%;
   color: white;
+  margin-right: 14%;
+  background-color: gray;
 }
 
 .containertwo {
@@ -72,7 +79,7 @@ ul {
   justify-content: center;
   gap: 36px;
   flex-wrap: wrap;
-  margin: 50px 0 100px 0;
+  margin: 36px 0 100px 0;
 }
 
 .containertwo p {
@@ -92,7 +99,7 @@ ul {
 
 .containerthree {
   display: flex;
-  background-color: rgb(233, 230, 230);
+  background-color: #e5e7eb;
   padding: 10% 22%;
   flex-direction: column;
   margin: 50px 0 50px 0;
@@ -102,19 +109,20 @@ ul {
   flex-shrink: 1;
   font-size: 55px;
   font-style: italic;
-  height: 150px;
+  height: auto;
 }
 
 .containerfour {
   display: flex;
   align-items: center;
-  margin: 100px;
+  margin: 75px;
   margin-left: 10%;
   margin-right: 5%;
   background-color: #3882f6;
   border-radius: 10px;
   color: #f9faf8;
   justify-content: space-around;
+  font-size: larger;
 }
 
 .paragraph-wrapper {
@@ -130,4 +138,5 @@ ul {
   padding: 30px;
   background-color: #1f2937;
   color: white;
+  margin-top: 2%;
 }
