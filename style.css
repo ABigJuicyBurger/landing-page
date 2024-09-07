@@ -45,12 +45,12 @@ a {
 }
 
 button {
+  text-align: center;
   background-color: #3882f6;
   color: white;
   font-weight: 900;
   font-size: 18px;
-  padding: 10px;
-  width: 135px;
+  padding: 12px;
   border: 2px solid white;
   border-radius: 6px;
 }
@@ -102,21 +102,28 @@ ul {
   background-color: #e5e7eb;
   padding: 10% 22%;
   flex-direction: column;
-  margin: 50px 0 50px 0;
+  margin: 50px 0;
 }
 
 .containerthree p {
   flex-shrink: 1;
-  font-size: 55px;
+  font-size: 36px;
   font-style: italic;
   height: auto;
+  margin-bottom: 20px;
+}
+
+.containerthree p:last-child {
+  align-self: flex-end;
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
 }
 
 .containerfour {
   display: flex;
   align-items: center;
   margin: 75px;
-  margin-left: 10%;
   margin-right: 5%;
   background-color: #3882f6;
   border-radius: 10px;
@@ -139,4 +146,45 @@ ul {
   background-color: #1f2937;
   color: white;
   margin-top: 2%;
+}
+
+@media only screen and (max-width: 680px) {
+  .containerone {
+    flex-direction: column;
+  }
+
+  .introtext {
+    flex-direction: column;
+    margin-bottom: 10%;
+  }
+
+  .placeholder {
+    margin-top: 10%;
+  }
+
+  .containerthree {
+    padding: 5% 10%;
+    margin: 25px 0;
+  }
+
+  .containerthree p {
+    font-size: 24px;
+  }
+
+  .containerthree p:last-child {
+    margin-top: 10%;
+    font-size: 20px;
+  }
+
+  .containerfour {
+    flex-direction: column;
+  }
+
+  .paragraph-wrapper {
+    line-height: normal;
+  }
+
+  .containerfour button {
+    margin-bottom: 10%;
+  }
 }
