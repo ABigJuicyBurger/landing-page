@@ -178,6 +178,7 @@ ul {
 
   .containerfour {
     flex-direction: column;
+    margin: 75px;
   }
 
   .paragraph-wrapper {
